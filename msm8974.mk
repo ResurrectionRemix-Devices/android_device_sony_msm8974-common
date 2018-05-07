@@ -113,6 +113,7 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay-lineage
 ifneq ($(BOARD_HAVE_RADIO),false)
     DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay-radio
     $(call inherit-product, $(COMMON_PATH)/radio.mk)
