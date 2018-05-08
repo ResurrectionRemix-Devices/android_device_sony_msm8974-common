@@ -123,7 +123,7 @@ endif
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8974
+    android.hardware.power@1.0-service-qti
 
 # Camera (stock blobs)
 PRODUCT_PACKAGES += \
