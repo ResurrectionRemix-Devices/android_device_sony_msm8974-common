@@ -22,7 +22,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OpenGL ES 3.0
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
-    
+
 # HDMI
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
